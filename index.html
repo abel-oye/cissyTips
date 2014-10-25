@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>cissyTips</title>
+	<style type="text/css">
+		.demo{
+			width:700px;
+			margin: 30px auto;
+			padding: 10px;
+			border: 1px solid #ddd;
+			border-radius:5px;
+			-webkit-border-radius:5px;
+			-moz-border-radius:5px;
+		}
+		.cy-tips-box{
+			display: none;
+			border: 1px solid #ddd;
+			position: fixed;
+			padding: 5px;
+			border-radius:3px;
+			-webkit-border-radius:3px;
+			-moz-border-radius:3px;
+			background-color:#fff; 
+		}
+	</style>
+</head>
+<body>
+	<div class="demo">
+		<a href="" title="hello cissyTips" id="demo1">hello cissyTips</a>
+	</div>
+	<script src="jquery1.9.1.min.js"></script>
+	<script src="cissyTips.js"></script>
+	<script>
+		$("#demo1").cissyTips({
+			html:"22"
+		})
+
+		$("#demo1").cissyTips({
+			html:"2213123ggggg2"
+		})
+	</script>
+</body>
+</html>
